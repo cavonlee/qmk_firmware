@@ -1,0 +1,30 @@
+
+# Debug
+CONSOLE_ENABLE = yes
+
+# WS2812
+RGB_MATRIX_ENABLE = yes
+RGB_MATRIX_DRIVER = ws2812
+WS2812_DRIVER = vendor
+
+# Boot Magic Lite
+BOOTMAGIC_ENABLE = yes
+
+# OLED
+OLED_ENABLE = yes
+OLED_DRIVER = ssd1306
+OLED_TRANSPORT = i2c
+
+# Audio
+AUDIO_ENABLE = yes
+AUDIO_DRIVER = pwm_hardware
+
+# WPM
+WPM_ENABLE = yes
+
+# Split Keyboard
+SPLIT_KEYBOARD = yes
+
+# Serial
+SERIAL_DRIVER = vendor
+# SERIAL_DRIVER = usart

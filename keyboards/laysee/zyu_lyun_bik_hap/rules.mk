@@ -1,0 +1,28 @@
+
+# Debug
+# CONSOLE_ENABLE = yes
+
+# WS2812
+RGB_MATRIX_ENABLE = yes
+RGB_MATRIX_DRIVER = ws2812
+WS2812_DRIVER = vendor
+
+# Boot Magic Lite
+BOOTMAGIC_ENABLE = yes
+
+# Override
+KEY_OVERRIDE_ENABLE = yes
+
+# Extra Key
+EXTRAKEY_ENABLE = yes
+
+# Split Keyboard
+SPLIT_KEYBOARD = yes
+
+# Serial
+SERIAL_DRIVER = vendor
+
+# Pointer Device
+POINTING_DEVICE_ENABLE = yes
+POINTING_DEVICE_DRIVER = pmw3360
+MOUSEKEY_ENABLE = yes

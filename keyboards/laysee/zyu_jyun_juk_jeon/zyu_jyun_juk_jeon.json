@@ -1,0 +1,87 @@
+{
+  "name": "Zyu Jyun Juk Jeon",
+  "vendorId": "0x4C73",
+  "productId": "0x0102",
+  "matrix": { "rows": 3, "cols": 2 },
+  "customKeycodes": [
+    {
+      "name": "DRAG_SCROLL",
+      "title": "Drag Scroll",
+      "shortName": "DragScr"
+    }
+  ],
+  "menus": [
+    {
+      "label": "Trackball",
+      "content": [
+        {
+          "label": "Scroll",
+          "content": [
+            {
+              "label": "Speed Divisor",
+              "type": "range",
+              "options": [1, 255],
+              "content": ["id_trackball_scroll_divisor", 0, 1]
+            },
+            {
+              "label": "Horizontal Reverse",
+              "type": "toggle",
+              "content": ["id_trackball_scroll_x_reverse", 0, 2]
+            },
+            {
+              "label": "Vertical Reverse",
+              "type": "toggle",
+              "content": ["id_trackball_scroll_y_reverse", 0, 3]
+            }
+          ]
+        },
+        {
+          "label": "Mouse",
+          "content": [
+            {
+              "label": "CPI",
+              "type": "range",
+              "options": [100, 12000],
+              "content": ["id_trackball_mouse_cpi", 0, 4]
+            },
+            {
+              "label": "Horizontal Reverse",
+              "type": "toggle",
+              "content": ["id_trackball_mouse_x_reverse", 0, 5]
+            },
+            {
+              "label": "Vertical Reverse",
+              "type": "toggle",
+              "content": ["id_trackball_mouse_y_reverse", 0, 6]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layouts": {
+    "keymap": [
+      [
+        {
+          "x": 2.25
+        },
+        "0,0",
+        "0,1"
+      ],
+      [
+        {
+          "x": 2.25
+        },
+        "1,0",
+        "1,1"
+      ],
+      [
+        {
+          "x": 2.25
+        },
+        "2,0",
+        "2,1"
+      ]
+    ]
+  }
+}

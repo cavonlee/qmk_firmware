@@ -1,0 +1,14 @@
+
+# Debug
+CONSOLE_ENABLE = yes
+
+# Boot Magic Lite
+BOOTMAGIC_ENABLE = yes
+
+# Extra Key
+EXTRAKEY_ENABLE = yes
+
+# Pointer Device
+POINTING_DEVICE_ENABLE = yes
+POINTING_DEVICE_DRIVER = pmw3360
+MOUSEKEY_ENABLE = yes
